@@ -1,0 +1,86 @@
+.exteriorA {
+  margin-top: 20px;
+  font-family: "Open-Sans", sans-serif;
+  margin-bottom: 20px;
+}
+
+.exteriorA h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  letter-spacing: 0;
+  color: #337288;
+  font-size: 190%;
+}
+
+.exteriorA h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+}
+
+.exteriorA p {
+  color: rgb(49, 47, 47);
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+}
+
+.exteriorA a {
+  text-decoration: none;
+}
+
+.contenido5 {
+  border: black solid 2px;
+}
+
+.ext-body {
+  border: black solid 2px;
+}
+
+.papa {
+  display: grid;
+  grid-template-columns: 36% 63%;
+  grid-template-rows: 80%;
+  grid-gap: 2%;
+}
+.hijo1 {
+  font-family: "Open Sans", sans-serif;
+}
+
+.hijo1 img {
+  object-fit: contain;
+  width: 99%;
+}
+
+.hijo2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  line-height: 40px;
+}
+.hijo2 a {
+  color: #008080;
+}
+
+.hijo2 img {
+  object-fit: contain;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+
+    .papa{
+        display: grid;
+        grid-template-columns: 100% ;
+        
+              grid-template-rows: auto;
+              grid-gap: 2%;
+    }
+
+    .hijo1{
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .hijo1 img{
+        object-fit: contain;
+        width: 100%;
+        
+    }
+}
